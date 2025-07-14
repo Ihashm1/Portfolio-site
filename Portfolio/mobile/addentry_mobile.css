@@ -1,0 +1,33 @@
+/* Add Blog Entry page layout fixes for mobile */
+/* Adjust grid layout for mobile */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+        "header"
+        "form"
+        "buttons";
+    gap: 1.5em; 
+}
+
+/* Header section */
+header {
+    grid-area: header;
+    text-align: center; 
+}
+
+/* Form section */
+form {
+    grid-area: form;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.25em; 
+}
+
+/* Buttons container */
+.buttons {
+    grid-area: buttons;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.25em; 
+}

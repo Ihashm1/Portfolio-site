@@ -1,0 +1,39 @@
+/* Education and Qualifications style fixes */
+/* Adjust grid layout for mobile */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    grid-template-areas:
+        "header"
+        "content";
+    gap: 1.3em; 
+}
+
+/* Header section */
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+/* Content section */
+.content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.1em; 
+}
+
+/* Individual education sections */
+.content section {
+    display: flex;
+    flex-direction: column; 
+    gap: 1em; 
+    text-align: center; 
+}
+
+/* Education lists */
+.content section ul {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5em; 
+}

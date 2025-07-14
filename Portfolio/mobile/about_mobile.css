@@ -1,0 +1,32 @@
+/* Adjust grid layout for mobile */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+        "header"
+        "section"
+        "hobbies-societies";
+    gap: 1.3em; 
+}
+
+/* Header section */
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+/* Section (About Me content) */
+section {
+    grid-area: section;
+    display: flex;
+    flex-direction: column; 
+    gap: 1em; 
+}
+
+/* Hobbies and Societies section */
+.hobbies-societies {
+    grid-area: hobbies-societies;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.3em; 
+}

@@ -1,0 +1,58 @@
+/* Body styles */
+body {
+    background-color: #E6E6FA; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Container styles - covers the entire page layout */
+.container {
+    display: flex; 
+    flex-direction: column; /* Arrange items (header and contacts) vertically */
+    align-items: center; 
+    height: 100vh; 
+}
+
+/* Header styles */
+header {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.20em; 
+    text-align: center; 
+    width: 93%; 
+    border: 0.15em solid #4B0082; 
+    border-radius: 1em; 
+    font-weight: bold; 
+    font-size: 2.5em; 
+    margin-bottom: 1.20em; /* Add spacing below the header */
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Outer box styles - covers the box containing contact information */
+.outer-box {
+    background-color: #9370DB; 
+    padding: 1.25em; 
+    border: 0.25em solid #4B0082; 
+    border-radius: 0.9em; 
+    width: 80%; 
+    margin: auto auto; /* Center the box both horizontally and vertically */
+}
+
+/* Contact box styles - covers the layout of contact items */
+.contact-box {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+/* Contact item styles - covers individual contact items */
+.contact-box a {
+    background-color: white; 
+    padding: 0.63em; 
+    border-radius: 0.63em; 
+}
+
+/* Contact image styles */
+.contact-box img {
+    width: 6.25em; 
+    height: 6.25em; 
+}

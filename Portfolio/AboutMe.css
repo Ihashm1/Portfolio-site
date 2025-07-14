@@ -1,0 +1,104 @@
+/* body styles */
+body {
+    background-color: #E6E6FA; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Container styles - covers the entire page layout */
+.container {
+    display: grid; 
+    grid-template-rows: auto 1fr auto; 
+    gap: 1.25em; 
+    padding: 1.25em; 
+    min-height: 100vh; 
+}
+
+/* Header styles */
+header {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    text-align: center; 
+    border: 0.15em solid #4B0082; 
+    border-radius: 0.9em; 
+    font-weight: bold; 
+    font-size: 2.5em; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Section styles - covers the main content area box */
+section {
+    display: grid; 
+    grid-template-columns: 1fr 2fr; 
+    gap: 1.25em; 
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    border: 0.25em solid #4B0082; 
+    border-radius: 0.9em; 
+    align-items: center; 
+}
+
+
+
+/* Section figure styles */
+section figure {
+    text-align: center; 
+}
+
+/* Section img styles */
+section img {
+    max-width: 15.8em; 
+    height: auto; 
+    border: 0.625em double white; 
+}
+
+/* Section figcaption styles */
+section figcaption {
+    margin-top: 0.63em; 
+    font-size: 0.8em; 
+    color: #A9A9A9; 
+}
+
+/* Section div styles */
+section div {
+    text-align: center; 
+    border: 0.3em double white; 
+    padding: 1.22em; 
+    border-radius: 0.94em; 
+    font-size: 1.5em; 
+    font-family: "EB Garamond", serif;
+}
+
+/* Hobbies and societies styles */
+.hobbies-societies {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 1.25em; 
+}
+
+/* Hobbies and societies aside styles */
+.hobbies-societies aside {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    border: 0.25em solid #4B0082; 
+    border-radius: 0.93em; 
+    font-size: 1.5em; 
+}
+
+/* Hobbies and societies h2 styles */
+.hobbies-societies h2 {
+    text-align: center; 
+    font-size: 1.5em; 
+    margin-bottom: 1.25em; 
+    text-decoration: underline; 
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hobbies and societies list styles */
+.hobbies-societies ul li {
+    margin-bottom: 0.62em; 
+    text-align: center; 
+    font-family: "EB Garamond", serif;
+}

@@ -1,0 +1,11 @@
+/* Reset CSS */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, nav, ul, ol, li, a, form, label, input, button, textarea, select, header, footer, section, article, aside {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 100%;
+    font-family: inherit; /* inherit font-family from parent element */
+    background: transparent;
+}

@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    background-color: #E6E6FA; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Container styles - covers the entire page layout */
+.container {
+    display: grid; 
+    grid-template-rows: auto 1fr; 
+    grid-template-columns: 1fr;
+    gap: 1.25em; 
+    padding: 1.25em; 
+    height: 100vh; 
+}
+
+/* Header styles */
+header {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    text-align: center; 
+    border: 0.15em solid #4B0082; 
+    border-radius: 0.9em; 
+    font-weight: bold; 
+    font-size: 2.5em; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Content styles - covers all content area */
+.content {
+    display: grid; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 1.25em; 
+    padding: 1.25em; 
+}
+
+/* Section styles - covers individual sections within the content */
+section {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    border: 0.25em solid #E6E6FA;
+    border-radius: 0.9em; 
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    text-align: left; 
+    gap: 2.5em; 
+}
+
+/* image styles */
+img {
+    width: 9.4em; 
+    height: 9.4em; 
+    border-radius: 0.65em; 
+}
+
+/* Section heading styles */
+section h3 {
+    font-weight: bold; 
+    font-size: 1.7em; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Section text styles */
+section h3, section h5, section p, section ul {
+    font-size: 1.5em; 
+    font-family: "EB Garamond", serif;
+}
+

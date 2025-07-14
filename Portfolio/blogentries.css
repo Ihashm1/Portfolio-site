@@ -1,0 +1,140 @@
+/* General page styles */
+body {
+    background-color: #9370DB; /* Purple background */
+    font-family: Arial, sans-serif;
+    color: white;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Title at the top of the page */
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 1em 0;
+    color: white;
+}
+
+/* Blog container styles */
+.blog-container {
+    width: 80%; /* Center the blog container */
+    display: flex;
+    flex-direction: column;
+    gap: 2em; /* Space between blog entries */
+    margin-bottom: 2em; /* Add spacing between the blog container and the footer */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Blog entry styles */
+.blog-entry {
+    display: grid;
+    grid-template-areas:
+        "title date"
+        "content content";
+    grid-template-columns: 1fr auto; /* Title takes most space, date is auto-sized */
+    gap: 1em; /* Space between title, date, and content */
+    padding: 1.5em;
+    background-color: #ffffff; 
+    border-radius: 0.6em;
+    position: relative;
+}
+
+/* Title styles */
+.entry-title {
+    grid-area: title;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin: 0;
+}
+
+/* Date and time styles */
+.entry-date-time {
+    grid-area: date;
+    font-size: 0.9em;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Content styles */
+.entry-content {
+    grid-area: content;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+/* Horizontal rule separating blog entries */
+.blog-entry + .blog-entry {
+    border-top: 0.25em solid rgb(0, 0, 0); /* Bold white line between entries */
+    padding-top: 2em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #F0F0F0; 
+    color: #fff; 
+    text-align: center;
+    width: 100%; 
+    font-size: 1.1em; 
+    margin-top: auto; /* Push footer to the bottom */
+    padding: 0.6em; 
+    border-top: 0.1em solid #4B0082; 
+}
+
+/* Button styling for footer links */
+.footer-button {
+    display: inline-block;
+    background-color: #ccc; 
+    color: #000; 
+    padding: 1em 2em; 
+    border-radius: 0.6em; 
+    margin: 0 1em; /* Space between buttons */
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer-button:hover {
+    background-color: #bbb; 
+}
+
+/* Style the select dropdown */
+select#month {
+    background-color: #f0f0f0; 
+    border: 0.1em solid black;   
+    padding: 0.45em;              
+    border-radius: 0.3em;     
+}
+
+/* Style the Filter button */
+form button[type="submit"] {
+    background-color: #f0f0f0; 
+    border: 0.1em solid black;   
+    padding: 0.45em 0.6em;         
+    border-radius: 0.4em;        
+    cursor: pointer;           
+}
+
+
+/* button styles for blog preview links */
+.preview_button {
+    background-color: #E6E6FA; 
+    border: 0.125em solid #4B0082; 
+    border-radius: 0.63em; 
+    padding: 0.63em 1.25em;
+    color: black;
+    cursor: pointer;
+    font-weight: bold; 
+    font-size: 1.2em; 
+}
+
+
+/* Button hover styles */
+preview_button:hover {
+    background-color: #D8BFD8; 
+}

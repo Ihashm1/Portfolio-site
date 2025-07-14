@@ -1,0 +1,42 @@
+/* View Blog page layout fixes for mobile */
+/* Adjust grid layout for mobile */
+body {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+        "header"
+        "filter"
+        "entries"
+        "footer";
+    gap: 1.25em; 
+}
+
+/* Header section */
+h1 {
+    grid-area: header;
+    text-align: center; 
+}
+
+/* Filter section (dropdown) */
+form {
+    grid-area: filter;
+    display: flex;
+    flex-direction: column; 
+    gap: 0.6em; 
+}
+
+/* Blog entries section */
+.blog-container {
+    grid-area: entries;
+    display: flex;
+    flex-direction: column; 
+    gap: 1.25em; 
+}
+
+/* Footer section */
+footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: column; 
+    gap: 0.6em; 
+}

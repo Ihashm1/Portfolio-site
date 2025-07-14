@@ -1,0 +1,116 @@
+/* Body styles */
+body {
+    background-color: #E6E6FA; 
+    font-family: Arial, sans-serif; 
+}
+
+/* Container styles - covers the entire page layout */
+.container {
+    display: grid; 
+    grid-template-rows: auto 1fr auto; 
+    gap: 1.25em; 
+    padding: 1.25em; 
+    min-height: 100vh; 
+}
+
+/* Header styles */
+header {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    text-align: center; 
+    border: 0.15em solid #4B0082; 
+    border-radius: 0.85em;
+    font-weight: bold; 
+    font-size: 2.5em; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Main content styles - covers project and experiences boxes */
+.main-content {
+    display: grid; 
+    grid-template-columns: 2fr 1fr; 
+    gap: 1.25em; 
+}
+
+/* Section styles of all content */
+section {
+    background-color: #9370DB; 
+    color: white;
+    padding: 1.25em; 
+    border: 0.25em solid #4B0082; 
+    border-radius: 0.85em; 
+}
+
+/* all section heading styles */
+section h1 {
+    font-size: 2em; 
+    margin-bottom: 1.25em; 
+    text-align: center; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Project and experience styles */
+.project, .experience {
+    margin-bottom: 1.25em; 
+}
+
+/* Project and experience heading styles */
+.project h2, .experience h3 {
+    font-size: 1.7em; 
+    margin-bottom: 0.625em; 
+    font-family: "EB Garamond", serif;
+}
+
+/* Project subheading styles */
+.project h3 {
+    font-size: 1.5em; 
+    font-weight: bold; 
+    margin-bottom: 0.625em; 
+    font-family: "EB Garamond", serif;
+}
+
+/* Project and experience paragraph styles */
+p {
+    font-size: 1.4em; 
+    font-family: "EB Garamond", serif;
+}
+
+/* Project link hover styles */
+.project h2 a:hover {
+    color: #FFD700; 
+}
+
+/* Horizontal rule styles */
+hr {
+    border: 0.1em solid #4B0082; 
+}
+
+/* Aside styles - covers the key skills section */
+aside {
+    background-color: #9370DB; 
+    color: white; 
+    padding: 1.25em; 
+    border: 0.25em solid #4B0082; 
+    border-radius: 0.85em;
+}
+
+/* Aside heading styles */
+aside h1 {
+    font-size: 2em; 
+    margin-bottom: 1.25em; 
+    text-align: center; 
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Ordered list styles */
+ol {
+    padding-left: 1.25em; 
+}
+
+/* Ordered list item styles */
+ol li {
+    font-size: 1.5em;
+    margin-bottom: 0.5em; 
+    font-family: "EB Garamond", serif;
+}
